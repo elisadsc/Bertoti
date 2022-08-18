@@ -2,4 +2,4 @@
 
 Titus Winters, Software Engineering at Google
 
-Esse é um texto para todos aqueles que não sabem sobre o significado da engenharia de software mas principalmente para aqueles que acham que sabe sobre. Ter uma direção da visão de um engenheiro de software que atua na área e entende do assunto é enriquecedor. 
+Esse é um texto para todos aqueles que não sabem sobre o significado da engenharia de software mas principalmente para aqueles que acham que sabem sobre. Ter uma direção da visão de um engenheiro de software que atua na área e entende do assunto é enriquecedor. 
