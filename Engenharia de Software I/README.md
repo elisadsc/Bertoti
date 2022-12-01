@@ -44,7 +44,7 @@ O trade-off implica um conflito de escolha e uma consequente relação de compro
 
 <br><br>
 
-## Diagrama caso de uso 
+## Diagrama de caso de uso 
 <img src="imagens//1.jpg">
   
   <br><br>
