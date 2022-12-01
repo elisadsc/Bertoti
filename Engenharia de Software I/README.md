@@ -28,7 +28,7 @@ O trade-off implica um conflito de escolha e uma consequente relação de compro
    > - Número pra contato
 - Vizualização de pet´s hospedados
 - Consulta de vagas disponiveis
-   > - Consultar na tabela quantidade de pet´s hospedados
+   > - Consultar na tabela quantidade de pets hospedados
 - Exclusão de hospedes
 - Edição de informações
 <br>
