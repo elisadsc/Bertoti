@@ -30,7 +30,7 @@ Titus Winters, Software Engineering at Google
 <br>
 
 >Requisitos não funcionais:
-- Interface simples e e de fácil entendimento
+- Interface simples e de fácil entendimento
 - Controle de uso do sistema
 
 <br>
