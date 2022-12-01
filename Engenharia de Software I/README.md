@@ -9,7 +9,9 @@ Titus Winters, Software Engineering at Google
 
 ## Trade-off na API
 
->O trade off é a priorização de escolhas, tendo em mente que devemos tomar a melhor decisão entre opções ficando apenas com uma e consequentemente causando a perda da outra, essa decisão tem que ser baseada na importância tanto para a realização do projeto, quanto pela necessidade do cliente e o que mais convém aos desenvolvedores. 
+>Trade-off ou tradeoff é uma expressão em inglês que significa o ato de escolher uma coisa em detrimento de outra e muitas vezes é traduzida como "perde-e-ganha".
+
+O trade-off implica um conflito de escolha e uma consequente relação de compromisso, porque a escolha de uma coisa em relação à outra, implica não usufruir dos benefícios da coisa que não é escolhida. Isso implica que para que aconteça o trade-off, elemento que faz a escolha deve conhecer os lados positivos e negativos das suas oportunidades.
 
 <br><br>
 
@@ -19,7 +21,7 @@ Titus Winters, Software Engineering at Google
 <br>
 
 >Requisitos Funcionais:
-- Cadastro de pet´s
+- Cadastro de pets
    > - Nome do pet
    > - Raça
    > - Nome do Dono
