@@ -26,7 +26,7 @@ Titus Winters, Software Engineering at Google
 - Vizualização de pet´s hospedados
 - Consulta de vagas disponiveis
    > - Consultar na tabela quantidade de pet´s hospedados
--exclusão de hospedes
+- Exclusão de hospedes
 <br>
 
 >Requisitos não funcionais:
