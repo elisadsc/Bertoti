@@ -13,7 +13,7 @@ Titus Winters, Software Engineering at Google
 <br><br>
 
 ## Requisitos
-**Sistema de um petshop**
+**Sistema de um hotel para pets**
 
 <br>
 
