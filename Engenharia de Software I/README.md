@@ -2,13 +2,9 @@
 
 Titus Winters, Software Engineering at Google
 
-Esse é um texto para todos aqueles que não sabem sobre o significado da engenharia de software mas principalmente para aqueles que acham que sabem sobre. É bem frisado também que os desafios dos engenheiros de software é o tempo, a usabilidade e a análise de requisitos. Ter uma direção da visão de um engenheiro de software que atua na área e entende do assunto é enriquecedor.
+>Esse é um texto para todos aqueles que não sabem sobre o significado da engenharia de software mas principalmente para aqueles que acham que sabem sobre. É bem frisado também que os desafios dos engenheiros de software é o tempo, a usabilidade e a análise de requisitos. Ter uma direção da visão de um engenheiro de software que atua na área e entende do assunto é enriquecedor.
 
 <br> <br>
-
->Ser engenheiro de software é possuir uma visão mais ampla do que os desenvolvedores, necessitando que esse profissional seja mais organizado e preocupado com o funcionamento do sistema e também requer a habilidade de se adptar e se reiventar durante o processo.
-
-<br><br>
 
 ## Trade-off na API
 
