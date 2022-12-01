@@ -40,12 +40,12 @@ O trade-off implica um conflito de escolha e uma consequente relação de compro
 <br>
 
 ## Diagrama de classes
-<img src="imagens//diagrama de caso de uso.png">
+<img src="imagens//1.jpg">
 
 <br><br>
 
 ## Casos de uso
-<img src="imagens//diagrama uml.png">
+<img src="imagens//2.jpg">
   
   <br><br>
 
