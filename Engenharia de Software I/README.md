@@ -39,12 +39,12 @@ O trade-off implica um conflito de escolha e uma consequente relação de compro
 
 <br>
 
-## Diagrama de classes
+## Diagrama entidade relacionamento (DER)
 <img src="imagens//2.jpg">
 
 <br><br>
 
-## Casos de uso
+## Diagrama caso de uso 
 <img src="imagens//1.jpg">
   
   <br><br>
