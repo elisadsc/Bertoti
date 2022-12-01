@@ -4,6 +4,52 @@ Titus Winters, Software Engineering at Google
 
 Esse é um texto para todos aqueles que não sabem sobre o significado da engenharia de software mas principalmente para aqueles que acham que sabem sobre. É bem frisado também que os desafios dos engenheiros de software é o tempo, a usabilidade e a análise de requisitos. Ter uma direção da visão de um engenheiro de software que atua na área e entende do assunto é enriquecedor.
 
+br>
+
+>Ser engenheiro de software é possuir uma visão mais ampla do que os desenvolvedores, necessitando que esse profissional seja mais organizado e preocupado com o funcionamento do sistema e também requer a habilidade de se adptar e se reiventar durante o processo.
+
+<br><br>
+
+## Trade-off na API
+
+>O trade off é a priorização de escolhas, tendo em mente que devemos tomar a melhor decisão entre opções ficando apenas com uma e consequentemente causando a perda da outra, essa decisão tem que ser baseada na importância tanto para a realização do projeto, quanto pela necessidade do cliente e o que mais convém aos desenvolvedores. 
+
+<br><br>
+
+## Requisitos
+**Sistema de um petshop**
+
+<br>
+
+>Requisitos Funcionais:
+- Cadastro de pet´s
+   > - Nome do pet
+   > - Raça
+   > - Nome do Dono
+   > - Número pra contato
+- Vizualização de pet´s hospedados
+- Consulta de vagas disponiveis
+   > - Consultar na tabela quantidade de pet´s hospedados
+-exclusão de hospedes
+<br>
+
+>Requisitos não funcionais:
+- Interface simples e e de fácil entendimento
+- Controle de uso do sistema
+
+<br>
+
+## Diagrama de classes
+<img src="imagens//diagrama de caso de uso.png">
+
+<br><br>
+
+## Casos de uso
+<img src="imagens//diagrama uml.png">
+  
+  <br><br>
+
+
 
 
 ## Diagrama de Classe
