@@ -35,16 +35,14 @@ Diretriz 1.3 - Adaptável (ERRADO)
 Criar conteúdo que pode ser apresentado de diferentes maneiras (por exemplo um layout simplificado) sem perder informação ou estrutura.
 <br>
 ![TelaDesktop](https://github.com/elisadsc/Bertoti/blob/main/Intera%C3%A7%C3%A3o%20Humano%20Computador/Imagens/TelaDesktop.png)
-<br>
-<br>
+
 Tela Desktop
 <br>
 ![TelaCelular](https://github.com/elisadsc/Bertoti/blob/main/Intera%C3%A7%C3%A3o%20Humano%20Computador/Imagens/TelaCelular.png)
-<br>
-<br>
+
 Tela Celular
-<br>
+
 ![VisualCode](https://github.com/elisadsc/Bertoti/blob/main/Intera%C3%A7%C3%A3o%20Humano%20Computador/Imagens/VisualCode.png)
-<br>
+
 
 
