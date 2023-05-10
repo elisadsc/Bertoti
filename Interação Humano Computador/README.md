@@ -13,10 +13,10 @@ Se as tecnologias usadas puderem alcançar a apresentação visual, o texto é u
 Customizável
 A imagem do texto pode ser personalizada visualmente de acordo com as necessidades do usuário;
 
-![VisualCode]()
+![VisualCode](https://github.com/elisadsc/Bertoti/blob/main/Intera%C3%A7%C3%A3o%20Humano%20Computador/Imagens/VisualCode.png)
 <br>
 
-![Windows10]()
+![Windows10](https://github.com/elisadsc/Bertoti/blob/main/Intera%C3%A7%C3%A3o%20Humano%20Computador/Imagens/Windows10.jpg)
 <br>
 <br>
 <br>
