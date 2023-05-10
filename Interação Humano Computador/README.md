@@ -13,7 +13,10 @@ Se as tecnologias usadas puderem alcançar a apresentação visual, o texto é u
 Customizável
 A imagem do texto pode ser personalizada visualmente de acordo com as necessidades do usuário;
 
+![VisualCode]()
+<br>
 
+![Windows10]()
 <br>
 <br>
 <br>
