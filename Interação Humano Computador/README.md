@@ -48,7 +48,7 @@ Tela Celular
 <br>
 
 <h2> 
-Flexibilidade e eficiência de uso
+Flexibilidade e eficiência de uso (Exemplo ruim)
 </h2>
 
 ![Relógio](https://github.com/elisadsc/Bertoti/blob/main/Intera%C3%A7%C3%A3o%20Humano%20Computador/Imagens/Rel%C3%B3gio.jpeg)
