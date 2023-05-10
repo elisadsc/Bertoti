@@ -14,19 +14,18 @@ Customizável
 A imagem do texto pode ser personalizada visualmente de acordo com as necessidades do usuário;
 
 
-<center>
 ![VisualCode](https://github.com/elisadsc/Bertoti/blob/main/Intera%C3%A7%C3%A3o%20Humano%20Computador/Imagens/VisualCode.png)
-<br>
+
+  
 VisualCode
-<br>
-<br>
+
+  
 ![Windows10](https://github.com/elisadsc/Bertoti/blob/main/Intera%C3%A7%C3%A3o%20Humano%20Computador/Imagens/Windows10.jpg)
-<br>
-<br>
+
+  
 Windows 10
-<br>
-<br>
-</center>
+
+
 
 
 <h2> 
