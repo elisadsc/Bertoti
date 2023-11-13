@@ -1,0 +1,102 @@
+// EstrategiaPagamento.java
+public interface EstrategiaPagamento {
+    void realizarPagamento(double valor);
+}
+
+// CartaoCredito.java
+public class CartaoCredito implements EstrategiaPagamento {
+    private static CartaoCredito instance = new CartaoCredito();
+
+    private CartaoCredito() {
+        // Construtor privado para impedir a criação de instâncias adicionais
+    }
+
+    public static CartaoCredito getInstance() {
+        return instance;
+    }
+
+    @Override
+    public void realizarPagamento(double valor) {
+        System.out.println("Pagamento com cartão de crédito no valor de R$" + valor);
+        // Lógica específica para pagamento com cartão de crédito
+    }
+}
+
+// CartaoDebito.java
+public class CartaoDebito implements EstrategiaPagamento {
+    private static CartaoDebito instance = new CartaoDebito();
+
+    private CartaoDebito() {
+        // Construtor privado para impedir a criação de instâncias adicionais
+    }
+
+    public static CartaoDebito getInstance() {
+        return instance;
+    }
+
+    @Override
+    public void realizarPagamento(double valor) {
+        System.out.println("Pagamento com cartão de débito no valor de R$" + valor);
+        // Lógica específica para pagamento com cartão de débito
+    }
+}
+
+// Dinheiro.java
+public class Dinheiro implements EstrategiaPagamento {
+    private static Dinheiro instance = new Dinheiro();
+
+    private Dinheiro() {
+        // Construtor privado para impedir a criação de instâncias adicionais
+    }
+
+    public static Dinheiro getInstance() {
+        return instance;
+    }
+
+    @Override
+    public void realizarPagamento(double valor) {
+        System.out.println("Pagamento em dinheiro no valor de R$" + valor);
+        // Lógica específica para pagamento em dinheiro
+    }
+}
+
+// PagamentoContext.java (Singleton)
+public class PagamentoContext {
+    private EstrategiaPagamento estrategia;
+    private static PagamentoContext instance = new PagamentoContext();
+
+    private PagamentoContext() {
+        // Construtor privado para impedir a criação de instâncias adicionais
+    }
+
+    public static PagamentoContext getInstance() {
+        return instance;
+    }
+
+    public void setEstrategia(EstrategiaPagamento estrategia) {
+        this.estrategia = estrategia;
+    }
+
+    public void realizarPagamento(double valor) {
+        estrategia.realizarPagamento(valor);
+    }
+}
+
+// Main.java
+public class Main {
+    public static void main(String[] args) {
+        PagamentoContext contexto = PagamentoContext.getInstance();
+
+        // Pagamento com cartão de crédito
+        contexto.setEstrategia(CartaoCredito.getInstance());
+        contexto.realizarPagamento(50.0);
+
+        // Pagamento com cartão de débito
+        contexto.setEstrategia(CartaoDebito.getInstance());
+        contexto.realizarPagamento(30.0);
+
+        // Pagamento em dinheiro
+        contexto.setEstrategia(Dinheiro.getInstance());
+        contexto.realizarPagamento(20.0);
+    }
+}

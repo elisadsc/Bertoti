@@ -1,0 +1,73 @@
+import java.util.ArrayList;
+import java.util.List;
+
+// Subject (Sujeito)
+interface PagamentoSubject {
+    void adicionarObservador(PagamentoObserver observador);
+    void removerObservador(PagamentoObserver observador);
+    void notificarObservadores(double valor);
+}
+
+// Concrete Subject (Sujeito Concreto)
+class PagamentoRealizado implements PagamentoSubject {
+    private List<PagamentoObserver> observadores = new ArrayList<>();
+
+    @Override
+    public void adicionarObservador(PagamentoObserver observador) {
+        observadores.add(observador);
+    }
+
+    @Override
+    public void removerObservador(PagamentoObserver observador) {
+        observadores.remove(observador);
+    }
+
+    @Override
+    public void notificarObservadores(double valor) {
+        for (PagamentoObserver observador : observadores) {
+            observador.atualizar(valor);
+        }
+    }
+
+    // Simula um pagamento sendo realizado
+    public void realizarPagamento(double valor) {
+        System.out.println("Pagamento realizado no valor de R$" + valor);
+        notificarObservadores(valor);
+    }
+}
+
+// Observer (Observador)
+interface PagamentoObserver {
+    void atualizar(double valor);
+}
+
+// Concrete Observer (Observador Concreto)
+class LoggerObserver implements PagamentoObserver {
+    @Override
+    public void atualizar(double valor) {
+        System.out.println("Log: Pagamento realizado no valor de R$" + valor);
+    }
+}
+
+// Concrete Observer (Observador Concreto)
+class EmailObserver implements PagamentoObserver {
+    @Override
+    public void atualizar(double valor) {
+        System.out.println("Email: Pagamento confirmado no valor de R$" + valor);
+    }
+}
+
+// Main
+public class Main {
+    public static void main(String[] args) {
+        PagamentoRealizado pagamento = new PagamentoRealizado();
+
+        PagamentoObserver logger = new LoggerObserver();
+        PagamentoObserver email = new EmailObserver();
+
+        pagamento.adicionarObservador(logger);
+        pagamento.adicionarObservador(email);
+
+        pagamento.realizarPagamento(100.0);
+    }
+}

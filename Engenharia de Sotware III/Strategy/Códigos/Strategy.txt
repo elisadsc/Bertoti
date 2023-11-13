@@ -1,0 +1,63 @@
+// EstrategiaPagamento.java
+public interface EstrategiaPagamento {
+    void realizarPagamento(double valor);
+}
+
+// CartaoCredito.java
+public class CartaoCredito implements EstrategiaPagamento {
+    @Override
+    public void realizarPagamento(double valor) {
+        System.out.println("Pagamento com cartão de crédito no valor de R$" + valor);
+        // Lógica específica para pagamento com cartão de crédito
+    }
+}
+
+// CartaoDebito.java
+public class CartaoDebito implements EstrategiaPagamento {
+    @Override
+    public void realizarPagamento(double valor) {
+        System.out.println("Pagamento com cartão de débito no valor de R$" + valor);
+        // Lógica específica para pagamento com cartão de débito
+    }
+}
+
+// Dinheiro.java
+public class Dinheiro implements EstrategiaPagamento {
+    @Override
+    public void realizarPagamento(double valor) {
+        System.out.println("Pagamento em dinheiro no valor de R$" + valor);
+        // Lógica específica para pagamento em dinheiro
+    }
+}
+
+// PagamentoContext.java
+public class PagamentoContext {
+    private EstrategiaPagamento estrategia;
+
+    public void setEstrategia(EstrategiaPagamento estrategia) {
+        this.estrategia = estrategia;
+    }
+
+    public void realizarPagamento(double valor) {
+        estrategia.realizarPagamento(valor);
+    }
+}
+
+// Main.java
+public class Main {
+    public static void main(String[] args) {
+        PagamentoContext contexto = new PagamentoContext();
+
+        // Pagamento com cartão de crédito
+        contexto.setEstrategia(new CartaoCredito());
+        contexto.realizarPagamento(50.0);
+
+        // Pagamento com cartão de débito
+        contexto.setEstrategia(new CartaoDebito());
+        contexto.realizarPagamento(30.0);
+
+        // Pagamento em dinheiro
+        contexto.setEstrategia(new Dinheiro());
+        contexto.realizarPagamento(20.0);
+    }
+}
