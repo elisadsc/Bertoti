@@ -1,4 +1,5 @@
-Exemplos de aplicações dos padrões de projeto Pagamento de Compras (crédito, débito e dinheiro) em java
+Pastas destinadas a exemplos de aplicações dos padrões de projeto Pagamento de Compras (crédito, débito e dinheiro) em java.
+Para mais informações, confira a tabela ⤵︎
 
 <table>
     <tr>
