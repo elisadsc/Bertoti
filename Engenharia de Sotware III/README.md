@@ -1,5 +1,5 @@
-<title> Exemplos de aplicações dos padrões de projeto Pagamento de Compras (crédito, débito e dinheiro) em java </title>
-
+Exemplos de aplicações dos padrões de projeto Pagamento de Compras (crédito, débito e dinheiro) em java
+<br>
 
 <table>
     <tr>
